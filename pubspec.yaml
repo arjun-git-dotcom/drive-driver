@@ -1,0 +1,45 @@
+name: drive_driver_bloc
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  flutter_spinkit: ^5.2.1
+  flutter_map: ^7.0.2
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  latlng: ^2.0.7
+  latlong2: ^0.9.1
+  fluttertoast: ^8.2.8
+  socket_io_client: ^3.0.2
+  permission_handler: ^11.3.1
+  flutter_polyline_points: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets to your application
+  assets:
+    - assets/PlayfairDisplay-Black.ttf
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: assets/PlayfairDisplay-Black.ttf
